@@ -1,0 +1,35 @@
+clar        => Borra el contenido de la pantalla 
+ls      => Muetra el contenido de la carpete en la que nos ubicamos 
+cd <destino/>       => Dirige a la carpeta de destino que indiquemos
+git init        => Inicia el repositorio de nuestra carpeta
+git add <nombre del archivo.algo>       => Agrega el archivo o los cambios al repositorio
+git status -s       =>Muestra el estado en el staged
+git status      =>Muestra el estado en el staged pero más feo
+git mv <nombre inicial> <nombre nuevo>      => Renombre el archivo
+git rm <nombre del archivo>         => Elimina el archivo
+git restore --staged <nombre del archivo>       => Restaura en el staged el archivo
+git restore <nombre del archivo>        => restaura el archivo luego de restaurarlo del staged
+git commit -m <Describción del commit"      => Crea un nuevo commit
+git diff        => Muestra los cambios realizados
+git diff --staged       => Muestra los cambios realizados que estan en el staged
+git log         => Mustra con mucha información los commits realizados 
+git log --oneline       => Mustra los commits realizados con mejor orden
+git branch      => Indica en que rama estamos ubicados
+git checkout -b <nombre de la rama>         => Crea una nueva rama
+cat <nombre del archivo>            => Muestra el contenido del archivo
+git checkout <nombre de la rama>        => Ubica al usuario en la rama especificada
+git merge <nombre de la rama>       => (Debe estar ubicado en la rama destino) Trae los cambios realizados en la rama a la rama destino
+git remote add origin <enlace repositorio Github>       => Conecta el repositorio con Github
+git push -u origin main         => envia el repositorio a Github
+git push -u origin <nombre del la rama>         => Envia la rama a Github
+
+
+Configuracion
+git config -- global user.name "<Nombre del usuario>"
+git config -- global user.email <Correo del usuario>
+git config -- global core.editor "code --wait"
+git config -- global -e
+git config -- global core.autocrlf true (para windows)
+
+
+
